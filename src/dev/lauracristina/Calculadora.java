@@ -12,7 +12,7 @@ public class Calculadora {
         return this.memoria;
     }
 
-    public void zerarMemoria() {
+    public void zerarMemoria(int i) {
         this.memoria = 0;
     }
     public void somar(int valor) {
